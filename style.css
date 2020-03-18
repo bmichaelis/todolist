@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: blue;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 50;
+    margin: 1px 0px 10px 10px;
+    padding-left: 10px; 
+    text-align: left;
+    color: white;
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+.input_div .input {
+    padding: 10px;
+    width: 450px;
+    height: 50px;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+    margin: 25px;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+input.input {
+    width: 450px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+    margin: 1px 0px 10px 10px;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+.addButton {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: blue;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+.addButton:hover {
+    background-color: #00ff00;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0px 10px 30px;
+}
+
+.item {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 4px solid white;
+}
+
+.item_input {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', sans-serif;
+    background: none;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.editButton {
+    width: 50px;
+    font-size: 15px;
+    font-family: 'Shadows Into Light', sans-serif;
+    color: white;
+    background: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.editButton:hover {
+    color: lime;
+}
+
+.removeButton {
+    width: 50px;
+    font-size: 15px;
+    font-family: 'Shadows Into Light', sans-serif;
+    color: white;
+    background: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.removeButton:hover {
+    color: red;
+}
+
+
+
+
